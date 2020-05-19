@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LeftComponentComponent } from './left-component/left-component.component';
 import { RightComponentComponent } from './right-component/right-component.component';
+import { ContainerComponent } from './container/container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeftComponentComponent,
-    RightComponentComponent
+    RightComponentComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,
