@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-left-component',
-  templateUrl: './left-component.component.html',
-  styleUrls: ['./left-component.component.scss']
+  selector: "app-left-component",
+  templateUrl: "./left-component.component.html",
+  styleUrls: ["./left-component.component.scss"],
 })
 export class LeftComponentComponent implements OnInit {
+  name: string;
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  run() {
+    alert(this.name);
   }
-
 }
