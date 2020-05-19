@@ -1,8 +1,9 @@
 <div id="content">
   <p>left</p>
   <h2>Name:</h2>
-  <input [(ngModel)]="name" />
+  <!-- <input [(ngModel)]="name" /> -->
+  <input [(ngModel)]="_storageOneService.name" />
   <button (click)="run()">Run me</button>
 
-  <h1>{{ name }}</h1>
+  <h1>{{ _storageOneService.name }}</h1>
 </div>
