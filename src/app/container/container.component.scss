@@ -3,4 +3,17 @@
   background-color: green;
   padding-left: 5%;
   padding-right: 5%;
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+app-left-component {
+  flex-basis: 50%;
+}
+
+app-right-component {
+  flex-basis: 50%;
 }
